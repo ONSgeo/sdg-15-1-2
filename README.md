@@ -13,3 +13,12 @@ The indicator Proportion of important sites for terrestrial and freshwater biodi
 Protected areas, as defined by the International Union for Conservation of Nature (IUCN; Dudley 2008), are clearly defined geographical spaces, recognized, dedicated and managed, through legal or other effective means, to achieve the long-term conservation of nature with associated ecosystem services and cultural values.
 
 The status **"designated"** is attributed to a protected area when the corresponding authority, according to national legislation or common practice (e.g., by means of an executive decree or the like), officially endorses a document of designation. 
+
+#### Key Biodiversity Areas (KBAs)
+
+KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites contributing significantly to the global persistence of biodiversity. KBAs are identified following global criteria set out in A Global Standard for the Identification of Key Biodiversity Areas (KBAs) (IUCN 2016) applied at national levels. KBAs encompass:
+
+	Important Bird and Biodiversity Areas (IBAs); BirdLife
+	Important Plant Areas (IPAs); PlantLife
+	Alliance for Zero Extinction (AZEs) sites. - None are located in UK
+
