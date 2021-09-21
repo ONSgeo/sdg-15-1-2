@@ -60,3 +60,5 @@ Computational formula = **(ISTFB area / PA area (Designation year)/Ecosystem Typ
 The Key Biodiversity Areas (KBAs) data was a merge of IBAs and IPAs data. There is no AZEs in UK so no data from these was used. The IBAs and IPAs feature layers overlap in some areas so to avoid double-counting area covered, the 2 were merged and dissolved to create one feature layer.
 
 
+
+
