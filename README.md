@@ -36,7 +36,8 @@ KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites co
 
 
 **2.	Protected Areas**
-	World Database on Protected Areas (WDPA) https://protectedplanet.net/country/GB (QA’d using data on protected areas from JNCC-DEFRA. WDPA data was preferred as it has attribution that includes “Status_Year” which is the date of designation of each protected area. Also the WDPA data uses international designations of the protected areas which makes stats for the indicator comparable to other countries and makes the methodology for the indicator applicable to other countries or regionally/globally.
+
+[World Database on Protected Areas (WDPA)](https://protectedplanet.net/country/GB)  (QA’d using data on protected areas from JNCC-DEFRA. WDPA data was preferred as it has attribution that includes “Status_Year” which is the date of designation of each protected area. Also the WDPA data uses international designations of the protected areas which makes stats for the indicator comparable to other countries and makes the methodology for the indicator applicable to other countries or regionally/globally.
 
 **3.	Ecosystem Type (LCM15_BroadHabitat)**
 
@@ -53,5 +54,9 @@ This indicator is calculated from data derived from a spatial overlap between pr
 The value of the indicator at a given point in time, based on data on the year of protected area establishment recorded, is computed as the mean percentage of each Key Biodiversity Area currently recognised that is covered by protected areas.
 
 Computational formula = **(ISTFB area / PA area (Designation year)/Ecosystem Type * 100**
+
+## Methodology
+
+The Key Biodiversity Areas (KBAs) data was a merge of IBAs and IPAs data. There is no AZEs in UK so no data from these was used. The IBAs and IPAs feature layers overlap in some areas so to avoid double-counting area covered, the 2 were merged and dissolved to create one feature layer.
 
 
