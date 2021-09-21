@@ -47,10 +47,11 @@ KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites co
 	[England regions](https://geoportal.statistics.gov.uk/datasets/regions-december-2019-boundaries-en-bfe) from Open Geography portal  combined with 
 	[country boundaries for Scotland, Wales and Northern Ireland](https://geoportal.statistics.gov.uk/datasets/countries-december-2019-boundaries-uk-bfe)
 
-5.	Define Computational formula for Indicator according to UN metadata
+## Computational formula for Indicator according to UN metadata
+
 This indicator is calculated from data derived from a spatial overlap between protected areas layer and terrestrial and freshwater Key Biodiversity Areas layer (including Important Bird and Biodiversity Areas, Alliance for Zero Extinction sites, and other Key Biodiversity Areas). 
 The value of the indicator at a given point in time, based on data on the year of protected area establishment recorded, is computed as the mean percentage of each Key Biodiversity Area currently recognised that is covered by protected areas.
 
-Computational formula = (ISTFB area / PA area (Designation year)/Ecosystem Type * 100
+Computational formula = **(ISTFB area / PA area (Designation year)/Ecosystem Type * 100**
 
 
