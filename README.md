@@ -41,8 +41,8 @@ KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites co
 **3.	Ecosystem Type (LCM15_BroadHabitat)**
 
 	[Land Cover Map 2015](https://www.ceh.ac.uk/services/land-cover-map-2015) (LCM2015) from UK Centre for Ecology & Hydrology (UKCEH) 
-	
-4.	Regions - ukRegions
+
+4.	Region boundaries
 
 	[England regions](https://geoportal.statistics.gov.uk/datasets/regions-december-2019-boundaries-en-bfe) from Open Geography portal  combined with 
 	[country boundaries for Scotland, Wales and Northern Ireland](https://geoportal.statistics.gov.uk/datasets/countries-december-2019-boundaries-uk-bfe)
