@@ -26,10 +26,13 @@ KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites co
 
 ## Data
 
-1.	KBAs – Key Biodiversity Areas – (KBAs are Important Sites for Terrestrial and Freshwater Biodiversity
+1.	KBAs – Key Biodiversity Areas – (Important Sites for Terrestrial and Freshwater Biodiversity)
+
 	Important Bird and Biodiversity Areas (IBAs); [BirdLife](http://datazone.birdlife.org/country/united-kingdom/ibas)
-	Important Plant Areas (IPAs); PlantLife
-	Alliance for Zero Extinction (AZEs) sites. - None are located in UK
+
+	Important Plant Areas (IPAs); [PlantLife](https://www.plantlife.org.uk/uk/nature-reserves-important-plant-areas/important-plant-areas)
+
+	Alliance for Zero Extinction ([AZEs](https://zeroextinction.org/site-identification/2018-global-aze-map/)) sites. - None are located in UK
 	
 2.	Protected Areas (PAs)
 	World Database on Protected Areas (WDPA) https://protectedplanet.net/country/GB (QA’d using data on protected areas from JNCC-DEFRA. WDPA data was preferred as it has attribution that includes “Status_Year” which is the date of designation of each protected area. Also the WDPA data uses international designations of the protected areas which makes stats for the indicator comparable to other countries and makes the methodology for the indicator applicable to other countries or regionally/globally.
