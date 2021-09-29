@@ -65,11 +65,11 @@ The ISTFB or Key Biodiversity Areas (KBAs) data was a merge of IBAs and IPAs dat
 
 The PA layer has 'Status_Year' which was used to determine area protected at each point in time. For this analysis, the value o the indicator was determined at 4 year intervals from 1999 to 2019. This 4-year interval was arbitrary and this indiator could be analysed at yearly intervals. Also, 1999 was used as the starting point beause there is minimal changes in protected area before 1999.
 
-For each interval, a selection criteria was used to separate all protected areas designated on or before the 'Status_Year'. This selection was then merged and dissolved to create a single layer. This was to avoid double counting the area.
+For each interval, a selection criteria was used to separate all protected areas designated on or before the 'Status_Year'. This selection was then merged and dissolved to create a single layer 'PA_Dissolve_StatusYear'. This was to avoid double counting the area.
 
 ### Intersection
 
-
+To determine area of KBAs covered by PAs, the KBA layer and the PA_Dissolve_StatusYear layer  for each n
 
 
 
