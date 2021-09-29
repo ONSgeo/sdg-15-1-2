@@ -64,7 +64,7 @@ The analysis for this indicator was carried out in ArGIS PRO.
 
 The ISTFB or Key Biodiversity Areas (KBAs) data was a merge of IBAs and IPAs data. There is no AZEs in UK so no data from these was used. The IBAs and IPAs feature layers overlap in some areas so to avoid double-counting area covered, the 2 were merged and dissolved to create one feature layer. The IBAs and IPAs datasets do not include Year of creation so there is only one layer used for this analysis.
 
-The PA layer has 'Status_Year' which was used to determine area protected at each point in time. For this analysis, the value o the indicator was determined at 4 year intervals from 1999 to 2019. This 4-year interval was arbitrary and this indiator could be analysed at yearly intervals. Also, 1999 was used as the starting point beause there is minimal changes in protected area before 1999.
+The PA layer has 'Status_Year' which was used to determine area protected at each point in time. For this analysis, the value of the indicator was determined at 4 year intervals from 1999 to 2019. This 4-year interval was arbitrary and this indicator could be analysed at yearly intervals. Also, 1999 was used as the starting point beause there is minimal changes in protected area before 1999.
 
 For each interval, a selection criteria was used to separate all protected areas designated on or before the 'Status_Year'. This selection was then merged and dissolved to create a single layer 'PA_Dissolve_StatusYear'. This was to avoid double counting the area.
 
