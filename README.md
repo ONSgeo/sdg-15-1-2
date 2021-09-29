@@ -18,9 +18,9 @@ The status **"designated"** is attributed to a protected area when the correspon
 
 KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites contributing significantly to the global persistence of biodiversity. KBAs are identified following global criteria set out in A Global Standard for the Identification of Key Biodiversity Areas (KBAs) (IUCN 2016) applied at national levels. KBAs encompass:
 
-	Important Bird and Biodiversity Areas (IBAs); Royal Society forProtection of Birds which is the BirdLife Partner for the UK
+	Important Bird and Biodiversity Areas (IBAs),
 
-	Important Plant Areas (IPAs); PlantLife
+	Important Plant Areas (IPAs); PlantLife,
 
 	Alliance for Zero Extinction (AZEs) sites. - None are located in UK
 
