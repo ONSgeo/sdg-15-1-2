@@ -79,7 +79,7 @@ For each interval, a selection criteria was used to separate all protected areas
 'KBAinPA_Dissolve_StatusYear' was intersected with 'LCM15_PA_Dissolve_StatusYear' and 'ukRegions' to create 'ukRegions_LCM15_KBAinPA_Dissolve_StatusYear' layer. This layer shows KBA in protected areas by region by ecosystem type.
 
 
-### Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type
+### Output statistics
 
 Computational formula = **( ukRegions_LCM15_KBAinPA_Dissolve_StatusYear / KBA_LCM15_ukRegions) * 100**
 
