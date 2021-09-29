@@ -34,6 +34,7 @@ KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites co
 
 	Alliance for Zero Extinction ([AZEs](https://zeroextinction.org/site-identification/2018-global-aze-map/)) sites. - None are located in UK
 
+** Regarding important sites, the biggest limitation is that site identification to date has focused mainly on specific subsets of biodiversity, for example birds (for Important Bird and Biodiversity Areas) and highly threatened species (for Alliance for Zero Extinction sites). 
 
 **2.	Protected Areas**
 
@@ -42,6 +43,7 @@ KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites co
 **3.	Ecosystem Type (LCM15_BroadHabitat)**
 
 	[Land Cover Map 2015](https://www.ceh.ac.uk/services/land-cover-map-2015) (LCM2015) from UK Centre for Ecology & Hydrology (UKCEH) 
+Ths data set was chosen a the most appropriate geographic dataset for representing ecosystems for the whole of the UK. in the indicator metadata, there is no definition of ecosystem and what datasets to use. ** In the future iterations of the indicator, there maybe an opportunity to use different ecosystem type datasets if more appropriate.
 
 **4.	Region boundaries**
 
