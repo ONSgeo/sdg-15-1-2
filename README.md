@@ -51,12 +51,12 @@ The data set was chosen a the most appropriate geographic dataset for representi
 	[England regions](https://geoportal.statistics.gov.uk/datasets/regions-december-2019-boundaries-en-bfe) from Open Geography portal  combined with 
 	[country boundaries for Scotland, Wales and Northern Ireland](https://geoportal.statistics.gov.uk/datasets/countries-december-2019-boundaries-uk-bfe)
 
-## Computational formula for Indicator according to UN metadata
+## Methodology
+
 
 This indicator is calculated from data derived from a spatial overlap between protected areas layer and terrestrial and freshwater Key Biodiversity Areas layer (including Important Bird and Biodiversity Areas, Alliance for Zero Extinction sites, and other Key Biodiversity Areas). 
 The value of the indicator at a given point in time, based on data on the year of protected area establishment recorded, is computed as the mean percentage of each Key Biodiversity Area currently recognised that is covered by protected areas.
 
-## Methodology
 
 ### Feature layers
 
@@ -79,7 +79,7 @@ For each interval, a selection criteria was used to separate all protected areas
 
 ### Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type
 
-Computational formula = **( / KBA_LCM15_ukRegions / ukRegions_LCM15_KBAinPA_Dissolve_StatusYear * 100**
+Computational formula = **( ukRegions_LCM15_KBAinPA_Dissolve_StatusYear / KBA_LCM15_ukRegions)* 100**
 
 
 
