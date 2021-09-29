@@ -40,12 +40,13 @@ KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites co
 
 [World Database on Protected Areas (WDPA)](https://protectedplanet.net/country/GB)  (QA’d using data on protected areas from JNCC-DEFRA. WDPA data was preferred as it has attribution that includes “Status_Year” which is the date of designation of each protected area. Also the WDPA data uses international designations of the protected areas which makes stats for the indicator comparable to other countries and makes the methodology for the indicator applicable to other countries or regionally/globally. Only protected areas with 'Status' as 'Designated' were used in this analysis.
 
-**3.	Ecosystem Type (LCM15_BroadHabitat)**
+**3.	Ecosystem Type (LCM15_AggregateClass)**
 
 	[Land Cover Map 2015](https://www.ceh.ac.uk/services/land-cover-map-2015) (LCM2015) from UK Centre for Ecology & Hydrology (UKCEH) 
-Ths data set was chosen a the most appropriate geographic dataset for representing ecosystems for the whole of the UK. in the indicator metadata, there is no definition of ecosystem and what datasets to use. ** In the future iterations of the indicator, there maybe an opportunity to use different ecosystem type datasets if more appropriate.
+The LCM2015 10 Aggregate Classes were used as ecosystem types for this analysis. 
+The data set was chosen a the most appropriate geographic dataset for representing ecosystems for the whole of the UK. in the indicator metadata, there is no definition of ecosystem and what datasets to use. ** In the future iterations of the indicator, there maybe an opportunity to use different ecosystem type datasets if more appropriate.
 
-**4.	Region boundaries**
+**4.	Region boundaries (ukRegions)**
 
 	[England regions](https://geoportal.statistics.gov.uk/datasets/regions-december-2019-boundaries-en-bfe) from Open Geography portal  combined with 
 	[country boundaries for Scotland, Wales and Northern Ireland](https://geoportal.statistics.gov.uk/datasets/countries-december-2019-boundaries-uk-bfe)
@@ -54,8 +55,6 @@ Ths data set was chosen a the most appropriate geographic dataset for representi
 
 This indicator is calculated from data derived from a spatial overlap between protected areas layer and terrestrial and freshwater Key Biodiversity Areas layer (including Important Bird and Biodiversity Areas, Alliance for Zero Extinction sites, and other Key Biodiversity Areas). 
 The value of the indicator at a given point in time, based on data on the year of protected area establishment recorded, is computed as the mean percentage of each Key Biodiversity Area currently recognised that is covered by protected areas.
-
-Computational formula = **(ISTFB area / PA area (Designation year))/Ecosystem Type * 100**
 
 ## Methodology
 
@@ -69,7 +68,19 @@ For each interval, a selection criteria was used to separate all protected areas
 
 ### Intersection
 
-To determine area of KBAs covered by PAs, the KBA layer and the PA_Dissolve_StatusYear layer  for each n
+'PA_Dissolve_StatusYear' intersect with 'LCM15_AggregateClass' created 'LCM15_PA_Dissolve_StatusYear'. This layer was used to determine area of protected areas by ecosystem type.
+
+'KBA' intersect with 'LCM15_AggregateClass' and 'ukRegions' created 'KBA_LCM15_ukRegions'. This layer was shows area covered by KBAs by ecosystem for each UK region.
+
+'KBA' layer intersected with 'PA_Dissolve_StatusYear' layer for each interval to create 'KBAinPA_Dissolve_StatusYear' layer. This was to determine area of KBAs covered by PAs.
+
+'KBAinPA_Dissolve_StatusYear' was intersected with 'LCM15_PA_Dissolve_StatusYear' and 'ukRegions' to create 'ukRegions_LCM15_KBAinPA_Dissolve_StatusYear' layer. This layer shows KBA in protected areas by region by ecosystem type.
+
+
+### Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type
+
+Computational formula = **( / KBA_LCM15_ukRegions / ukRegions_LCM15_KBAinPA_Dissolve_StatusYear * 100**
+
 
 
 
