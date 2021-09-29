@@ -79,7 +79,7 @@ For each interval, a selection criteria was used to separate all protected areas
 
 ### Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type
 
-Computational formula = **( ukRegions_LCM15_KBAinPA_Dissolve_StatusYear / KBA_LCM15_ukRegions)* 100**
+Computational formula = **( ukRegions_LCM15_KBAinPA_Dissolve_StatusYear / KBA_LCM15_ukRegions) * 100**
 
 
 
