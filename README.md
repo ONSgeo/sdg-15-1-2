@@ -57,6 +57,8 @@ The data set was chosen a the most appropriate geographic dataset for representi
 This indicator is calculated from data derived from a spatial overlap between protected areas layer and terrestrial and freshwater Key Biodiversity Areas layer (including Important Bird and Biodiversity Areas, Alliance for Zero Extinction sites, and other Key Biodiversity Areas). 
 The value of the indicator at a given point in time, based on data on the year of protected area establishment recorded, is computed as the mean percentage of each Key Biodiversity Area currently recognised that is covered by protected areas.
 
+The analysis for this indicator was carried out in ArGIS PRO.
+
 
 ### Feature layers
 
