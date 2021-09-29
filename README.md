@@ -30,6 +30,8 @@ KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites co
 
 	Important Bird and Biodiversity Areas (IBAs); [BirdLife](http://datazone.birdlife.org/country/united-kingdom/ibas)
 
+IBAs data was provided by Birdlife International. The data is compiled by Royal Society for Protection of Birds (RSPB) which is the UK Birdlife partner.
+
 	Important Plant Areas (IPAs); [PlantLife](https://www.plantlife.org.uk/uk/nature-reserves-important-plant-areas/important-plant-areas)
 
 	Alliance for Zero Extinction ([AZEs](https://zeroextinction.org/site-identification/2018-global-aze-map/)) sites. - None are located in UK
