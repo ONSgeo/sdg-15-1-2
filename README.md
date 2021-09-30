@@ -85,7 +85,15 @@ For each interval, a selection criteria was used to separate all protected areas
 
 Computational formula = **(ukRegions_LCM15_KBAinPA_Dissolve_StatusYear / KBA_LCM15_ukRegions) * 100**
 
-The statistics from the computation were tabulated showing proportion of KBAs in protected areas by ecosystem type for the whole of the UK, 4 countries and regions in England for the years 1999, 2003, 2007, 2011, 2015 and 2019.
+The statistics from the computation were tabulated and showed for the whole of the UK, 4 countries and regions in England for the years 1999, 2003, 2007, 2011, 2015 and 2019, the following statistics by ecosystem type;
+
+	Important 
+
+	Important 
+
+	Important 
+
+
 
 
 
