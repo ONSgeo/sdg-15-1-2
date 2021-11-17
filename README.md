@@ -36,11 +36,14 @@ IBAs data was provided by Birdlife International. The data is compiled by Royal 
 
 	Alliance for Zero Extinction ([AZEs](https://zeroextinction.org/site-identification/2018-global-aze-map/)) sites. - None are located in UK
 
-** Regarding important sites, the biggest limitation is that site identification to date has focused mainly on specific subsets of biodiversity, for example birds (for Important Bird and Biodiversity Areas) and highly threatened species (for Alliance for Zero Extinction sites). There is limited geographic datasets of other different levels of biodiversity and taxonomic groups. This analysis uses the available datasets for the UK, which are IBAs and IPAs.
 
 **2.	Protected Areas**
 
-[World Database on Protected Areas (WDPA)](https://protectedplanet.net/country/GB)  (QA’d using data on protected areas from JNCC-DEFRA. WDPA data was preferred as it has attribution that includes “Status_Year” which is the date of designation of each protected area. Also the WDPA data uses international designations of the protected areas which makes stats for the indicator comparable to other countries and makes the methodology for the indicator applicable to other countries or regionally/globally. Only protected areas with 'Status' as 'Designated' were used in this analysis.
+[World Database on Protected Areas (WDPA)](https://protectedplanet.net/country/GB).  These data were compared to data on protected areas from DEFRA. The data used to compare WDPA data was provided as an attachment by DEFRA. The datasets were similar in terms of names and number of protected areas and area covered. DEFRA confirmed that they provide updates on changes to any protected areas dataset to WDPA on a regular basis. 
+
+
+WDPA data were chosen due to the inclusion of data on the date of designation of each protected area. Additionally, the WDPA data uses international designations of protected areas. This improves comparability with other countries. Only protected areas with 'Status' as 'Designated' were used in this analysis.
+
 
 **3.	Ecosystem Type**
 
@@ -97,6 +100,9 @@ Computational formula = **(ukRegions_LCM15_KBAinPA_Dissolve_StatusYear / KBA_LCM
 The statistics from the computation were tabulated showing proportion of KBAs in protected areas by ecosystem type for the whole of the UK, its constituent countries, and regions in England for the years 1999, 2003, 2007, 2011, 2015 and 2019.
 
 ### Limitations
+
+A key limitation of this indicator is that identification of Key Biodiversity Areas to date has focused mainly on specific subsets of biodiversity, for example birds (for IBAs) and highly threatened species (Alliance for Zero Extinction sites). There are limited geographic datasets of other levels of biodiversity and taxonomic groups. 
+
 
 While this indicator is currently reported over four-year steps, it is possible to calculate it on a yearly basis. However, a four-year window was chosen to reduce the computational burden. The compromise was considered acceptable given that there were not large changes in protected area coverage on a yearly basis.
 
