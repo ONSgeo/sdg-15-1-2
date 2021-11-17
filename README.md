@@ -87,11 +87,25 @@ Computational formula = **(ukRegions_LCM15_KBAinPA_Dissolve_StatusYear / KBA_LCM
 
 The statistics from the computation were tabulated and showed for the whole of the UK, 4 countries and regions in England for the years 1999, 2003, 2007, 2011, 2015 and 2019, the following statistics by ecosystem type;
 
-	Important 
+### Limitations
 
-	Important 
+While this indicator is currently reported over four-year steps, it is possible to calculate it on a yearly basis. However, a four-year window was chosen to reduce the computational burden. The compromise was considered acceptable given that there were not large changes in protected area coverage on a yearly basis.
 
-	Important 
+
+Whilst land cover shows change over time, and Land Cover Maps produced after 2015 have been created, LCM15 was used for the whole time series. This is because this was the most current map available at the time of analysis.
+
+
+To distinguish coastal from freshwater and terrestrial ecosystems for this analysis, all areas outside of the Land Cover Map boundary were classified as coastal and were not considered in the analysis.  
+
+
+Key Biodiversity Areas are currently fixed and do not show change over time, despite the case that important sites for biodiversity are likely to shift, for example, with changes in land use and climate change. In order to safeguard important sites and stem the decline in biodiversity, there is need therefore to measure and monitor changes in KBAs on a more frequent basis.
+
+
+For some regions, current limitations on capacity and technology mean that it will take time to compile the necessary data and level of detail to demonstrate that sites meet the quantitative thresholds associated with the KBA criteria. 
+
+
+It should be noted that areas not identified as KBAs are not necessarily of lesser importance. Future work could be done to include areas of national significance in addition to KBAs.
+
 
 
 
