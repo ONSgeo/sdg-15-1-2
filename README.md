@@ -72,20 +72,23 @@ For each interval, a selection criteria was used to separate all protected areas
 
 ### Intersection
 
-'PA_Dissolve_StatusYear' intersect with 'LCM15_AggregateClass' created 'LCM15_PA_Dissolve_StatusYear'. This layer was used to determine area of protected areas by ecosystem type.
+To determine the area of protected areas (PAs) by ecosystem type, the layer containing designated PAs for each window was intersected with the LCM15 Aggregate Class layer. 
 
-'KBA' intersect with 'LCM15_AggregateClass' and 'ukRegions' created 'KBA_LCM15_ukRegions'. This layer was shows area covered by KBAs by ecosystem for each UK region.
 
-'KBA' layer intersected with 'PA_Dissolve_StatusYear' layer for each interval to create 'KBAinPA_Dissolve_StatusYear' layer. This was to determine area of KBAs covered by PAs.
+The area covered by KBAs for each ecosystem type and for each UK region was determined by intersecting these three layers (KBAs, LCM15 Aggregate classes, and UK regions). None of these three layers currently have a time element (the boundaries are the same across the whole time series). 
 
-'KBAinPA_Dissolve_StatusYear' was intersected with 'LCM15_PA_Dissolve_StatusYear' and 'ukRegions' to create 'ukRegions_LCM15_KBAinPA_Dissolve_StatusYear' layer. This layer shows KBA in protected areas by region by ecosystem type.
+
+To determine the area of KBAs covered by PAs, the KBA layer was intersected with the layer containing designated PAs for each four-year step.
+
+
+Finally, the three resulting layers (area of PAs by ecosystem type, area of KBAs by ecosystem type and UK regions, and area of KBAs covered by PAs) were intersected. This could then be used to calculate the area of KBAs covered by PAs by region and ecosystem type. 
 
 
 ### Output statistics
 
 Computational formula = **(ukRegions_LCM15_KBAinPA_Dissolve_StatusYear / KBA_LCM15_ukRegions) * 100**
 
-The statistics from the computation were tabulated and showed for the whole of the UK, 4 countries and regions in England for the years 1999, 2003, 2007, 2011, 2015 and 2019, the following statistics by ecosystem type;
+The statistics from the computation were tabulated showing proportion of KBAs in protected areas by ecosystem type for the whole of the UK, its constituent countries, and regions in England for the years 1999, 2003, 2007, 2011, 2015 and 2019.
 
 ### Limitations
 
