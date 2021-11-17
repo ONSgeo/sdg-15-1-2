@@ -55,22 +55,25 @@ The data set was chosen a the most appropriate geographic dataset for representi
 
 ## Methodology
 
-
-This indicator is calculated from data derived from a spatial overlap between protected areas layer and terrestrial and freshwater Key Biodiversity Areas layer (including Important Bird and Biodiversity Areas, Alliance for Zero Extinction sites, and other Key Biodiversity Areas). 
-The value of the indicator at a given point in time, based on data on the year of protected area establishment recorded, is computed as the mean percentage of each Key Biodiversity Area currently recognised that is covered by protected areas.
-
 The analysis for this indicator was carried out in ArGIS PRO.
+
+
+The indicator is calculated from data derived from a spatial overlap between a protected areas layer and a terrestrial and freshwater Key Biodiversity Areas layer (IBAs and IPAs). The value of the indicator at a given point in time (Status Year), is computed as the mean percentage of each Key Biodiversity Area currently recognised that is covered by protected areas.
+
+
+For this analysis, the value of the indicator was determined at four-year steps from 1999 to 2019. The values for 1999 shows all KBAs covered by protected areas designated on or before 1999. The values for 2003 shows all KBAs covered by protected areas designated on or before 2003 including those before 1999. Yearly intervals could have been used, however a four-year interval was chosen because there are not large changes in protected area coverage on annual basis. It is also computationally expensive to calculate the indicator annually. The year 1999 was chosen as the starting point because there were minimal changes in protected area before 1999.
+
 
 
 ### Feature layers
 
-The ISTFB or Key Biodiversity Areas (KBAs) data was a merge of IBAs and IPAs data. There is no AZEs in UK so no data from these was used. The IBAs and IPAs feature layers overlap in some areas so to avoid double-counting area covered, the 2 were merged and dissolved to create one feature layer. The IBAs and IPAs datasets do not include Year of creation so there is only one layer used for this analysis.
+The Key Biodiversity Areas (KBA) data was a merge of IBA and IPA datasets. There are no AZEs in the UK so no data from these were used. The IBA and IPA feature layers overlap in some areas. Therefore, to avoid double counting the area covered, the two layers were merged and dissolved to create one feature layer. Countries are expected to review and update KBAs every 8-12 years and the last and only assessment in the UK was in 2007. The KBA dataset do not include year of creation so there is only one layer used for this analysis throughout the whole time series.
 
-The PA layer has 'Status_Year' which was used to determine area protected at each point in time. For this analysis, the value of the indicator was determined at 4 year intervals from 1999 to 2019. This 4-year interval was arbitrary and this indicator could be analysed at yearly intervals. Also, 1999 was used as the starting point beause there is minimal changes in protected area before 1999.
 
-For each interval, a selection criteria was used to separate all protected areas designated on or before the 'Status_Year'. This selection was then merged and dissolved to create a single layer 'PA_Dissolve_StatusYear'. This was to avoid double counting the area.
+The Protected Area (PA) layer includes the date on which each protected area was designated (‘Status_Year’). For each four-year step, all protected areas designated on or before the interval year using the 'Status_Year' were selected and separated in a GIS. As some PAs overlap in area, this selection was then merged and dissolved to create a single layer to avoid double counting the area. This layer contains the boundaries of all PAs that were designated on or before the interval year including the interval before. Thus, all PAs designated on or before 1999 are counted in 1999, and for 2003 all PAs up to 2003 are counted.
 
-### Intersection
+
+### Intersections
 
 To determine the area of protected areas (PAs) by ecosystem type, the layer containing designated PAs for each window was intersected with the LCM15 Aggregate Class layer. 
 
