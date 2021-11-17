@@ -42,15 +42,18 @@ IBAs data was provided by Birdlife International. The data is compiled by Royal 
 
 [World Database on Protected Areas (WDPA)](https://protectedplanet.net/country/GB)  (QA’d using data on protected areas from JNCC-DEFRA. WDPA data was preferred as it has attribution that includes “Status_Year” which is the date of designation of each protected area. Also the WDPA data uses international designations of the protected areas which makes stats for the indicator comparable to other countries and makes the methodology for the indicator applicable to other countries or regionally/globally. Only protected areas with 'Status' as 'Designated' were used in this analysis.
 
-**3.	Ecosystem Type (LCM15_AggregateClass)**
+**3.	Ecosystem Type**
 
-	[Land Cover Map 2015](https://www.ceh.ac.uk/services/land-cover-map-2015) (LCM2015) from UK Centre for Ecology & Hydrology (UKCEH) 
-The LCM2015 10 Aggregate Classes were used as ecosystem types for this analysis. 
-The data set was chosen a the most appropriate geographic dataset for representing ecosystems for the whole of the UK. in the indicator metadata, there is no definition of ecosystem and what datasets to use. ** In the future iterations of the indicator, there maybe an opportunity to use different ecosystem type datasets if more appropriate.
+	The [Land Cover Map 2015](https://www.ceh.ac.uk/services/land-cover-map-2015) (LCM2015) from UK Centre for Ecology & Hydrology (UKCEH) is derived from satellite images and digital cartography and provides land cover information for the whole of the UK. The LCM2015 10 Aggregate Classes were used as ecosystem types for this analysis. The data set, which is based on the UK Biodiversity Action Plan Broad Habitat Classes, was chosen as the most appropriate geographic dataset for representing ecosystems for the whole of the UK. In the indicator metadata, there is no definition of ecosystem and what datasets to use.
 
-**4.	Region boundaries (ukRegions)**
 
-	[England regions](https://geoportal.statistics.gov.uk/datasets/regions-december-2019-boundaries-en-bfe) from Open Geography portal  combined with 
+**4.	Region boundaries**
+
+Country and region boundaries were taken from [Open Geography portal](https://geoportal.statistics.gov.uk/):
+
+	[England regions](https://geoportal.statistics.gov.uk/datasets/regions-december-2019-boundaries-en-bfe)  
+
+
 	[country boundaries for Scotland, Wales and Northern Ireland](https://geoportal.statistics.gov.uk/datasets/countries-december-2019-boundaries-uk-bfe)
 
 ## Methodology
