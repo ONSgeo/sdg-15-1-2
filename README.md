@@ -1,28 +1,29 @@
-# **Goal 15**: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss.
+## Introduction
 
-## **Target 15.1**: By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements
+The Sustainable Development Goals (SDGs) are part of the UN 2030 Agenda for Sustainable Development. The Office for National Statistics (ONS) reports the UK data for the SDG indicators on the [UK SDG data website](https://sdgdata.gov.uk/).
 
-### **Indicator 15.1.2**: Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type.
 
-### Definition:
-The indicator Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type shows temporal trends in the mean percentage of each important site for terrestrial and freshwater biodiversity (i.e., those that contribute significantly to the global persistence of biodiversity) that is covered by designated protected areas and Other Effective Area-based Conservation Measures (OECMs).
+Included in the 17 SDGs is Goal 15, which aims to ‘Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss’. One of the goal 15 indicators that, until recently, remained unreported for the UK, is 15.1.2: ‘Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type’. 
+
+
+This indicator shows temporal trends in the mean percentage of important sites for terrestrial and freshwater biodiversity that is covered by designated protected areas and Other Effective Area-based Conservation Measures (OECMs). Important sites for terrestrial and freshwater biodiversity are sites that contribute significantly to the global persistence of biodiversity. Throughout this document, these are referred to as Key Biodiversity Areas (KBAs).
+
+
+Whilst there are now UK data available for this indicator on the International Biodiversity Assessment Tool (IBAT), these data are not disaggregated to country and region level within the UK. The methodology outlined below has therefore been used to report this indicator on the UK SDG data website at a more granular level. It should be noted that there are some differences in methodology between the two datasets. Most notably, the IBAT data do not currently include Important Plant Areas (IPAs) as Key Biodiversity Areas. In addition, the method of ecosystem type designation differs between the two datasets.
+
 
 ### Concepts:
 
 #### Protected Areas
-Protected areas, as defined by the International Union for Conservation of Nature (IUCN; Dudley 2008), are clearly defined geographical spaces, recognized, dedicated and managed, through legal or other effective means, to achieve the long-term conservation of nature with associated ecosystem services and cultural values.
+Protected areas, as defined by the International Union for Conservation of Nature (IUCN; Dudley 2008), are clearly defined geographical spaces, recognized, dedicated, and managed, through legal or other effective means, to achieve the long-term conservation of nature with associated ecosystem services and cultural values.
 
-The status **"designated"** is attributed to a protected area when the corresponding authority, according to national legislation or common practice (e.g., by means of an executive decree or the like), officially endorses a document of designation. 
+
+A protected area acquires the ‘designated’ status when the corresponding authority, according to national legislation or common practice (e.g., by means of an executive decree or the like), officially endorses a document of designation.
+
 
 #### Key Biodiversity Areas (KBAs)
 
-KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites contributing significantly to the global persistence of biodiversity. KBAs are identified following global criteria set out in A Global Standard for the Identification of Key Biodiversity Areas (KBAs) (IUCN 2016) applied at national levels. KBAs encompass:
-
-	Important Bird and Biodiversity Areas (IBAs),
-
-	Important Plant Areas (IPAs); PlantLife,
-
-	Alliance for Zero Extinction (AZEs) sites. - None are located in UK
+KBAs or Important Sites for Terrestrial and Freshwater Biodiversity are sites contributing significantly to the global persistence of biodiversity. KBAs are identified following global criteria set out in A Global Standard for the Identification of Key Biodiversity Areas (KBAs) (IUCN 2016) applied at national levels. KBAs encompass Important Bird and Biodiversity Areas (IBAs), Important Plant Areas (IPAs), Alliance for Zero Extinction sites (AZEs). 
 
 ## Data
 
