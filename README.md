@@ -120,7 +120,7 @@ Key Biodiversity Areas are currently fixed and do not show change over time, des
 For some regions, current limitations on capacity and technology mean that it will take time to compile the necessary data and level of detail to demonstrate that sites meet the quantitative thresholds associated with the KBA criteria. 
 
 
-It should be noted that areas not identified as KBAs are not necessarily of lesser importance. Future work could be done to include areas of national significance in addition to KBAs.
+It should be noted that areas not identified as KBAs are not necessarily of lesser importance. Future work could be done to include areas of national significance in addition to KBAs. 
 
 
 
